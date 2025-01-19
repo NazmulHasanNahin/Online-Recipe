@@ -7,6 +7,7 @@ import RecipeText from './component/RecipeText/RecipeText';
 import Tables from './component/Tables/Tables';
 import { Toaster, toast } from 'react-hot-toast';
 import CuCook from './component/CuCook/CuCook';
+import Footer from './component/Footer/Footer';
 
 
 
@@ -65,6 +66,7 @@ function App() {
             ></CuCook>
           </div>
         </div>
+        <Footer></Footer>
       </div>
       <Toaster
         position="top-right"

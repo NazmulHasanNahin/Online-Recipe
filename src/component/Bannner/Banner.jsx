@@ -2,6 +2,7 @@ const Banner = () => {
     return (
         <div className="relative m-4">
             {/* Image */}
+            
             <div className="flex justify-center items-center">
                 <img
                     className="w-full h-[400px] md:h-[600px] lg:h-[700px] object-cover rounded-lg" // Dynamic height for different screen sizes
